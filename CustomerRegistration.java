@@ -25,6 +25,30 @@ public class CustomerRegistration extends ClothingRentalService{
         printInfo();
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+    
+    public void setBirthDate(String birthDate){
+        this.birthDate = birthDate;
+    }
+    
+    public String getName() {
+        return this.name;
+    }
+
+    public String getGender() {
+        return this.gender;
+    }
+    
+    public String getBirthDate(){
+        return this.birthDate;
+    }
+
     public void registerAcc() {
         System.out.print("\nUsername : ");
         username = in.nextLine();
