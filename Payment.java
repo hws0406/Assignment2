@@ -1,5 +1,4 @@
 
 interface Payment {
-
     double getPayment();
 }
